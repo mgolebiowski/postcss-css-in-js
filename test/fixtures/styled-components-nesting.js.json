@@ -17,6 +17,7 @@
 					"type": "decl",
 					"source": {
 						"start": {
+							"offset": 2,
 							"line": 3,
 							"column": 2
 						},
@@ -38,6 +39,7 @@
 							]
 						},
 						"end": {
+							"offset": 15,
 							"line": 3,
 							"column": 15
 						}
@@ -53,6 +55,7 @@
 					"type": "literal",
 					"source": {
 						"start": {
+							"offset": 18,
 							"line": 4,
 							"column": 2
 						},
@@ -90,6 +93,7 @@
 									"type": "decl",
 									"source": {
 										"start": {
+											"offset": 3,
 											"line": 5,
 											"column": 3
 										},
@@ -97,6 +101,7 @@
 											"file": "styled-components-nesting.js"
 										},
 										"end": {
+											"offset": 17,
 											"line": 5,
 											"column": 17
 										}
@@ -110,6 +115,7 @@
 									"file": "styled-components-nesting.js"
 								},
 								"start": {
+									"offset": 0,
 									"line": 4,
 									"column": 19
 								},
@@ -127,6 +133,7 @@
 					"type": "literal",
 					"source": {
 						"start": {
+							"offset": 59,
 							"line": 7,
 							"column": 2
 						},
@@ -164,6 +171,7 @@
 									"type": "decl",
 									"source": {
 										"start": {
+											"offset": 3,
 											"line": 8,
 											"column": 3
 										},
@@ -171,6 +179,7 @@
 											"file": "styled-components-nesting.js"
 										},
 										"end": {
+											"offset": 20,
 											"line": 8,
 											"column": 20
 										}
@@ -184,6 +193,7 @@
 									"file": "styled-components-nesting.js"
 								},
 								"start": {
+									"offset": 0,
 									"line": 7,
 									"column": 20
 								},
@@ -213,6 +223,7 @@
 					]
 				},
 				"start": {
+					"offset": 0,
 					"line": 2,
 					"column": 26
 				},
