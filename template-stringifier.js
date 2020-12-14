@@ -7,7 +7,15 @@ class TemplateStringifier extends Stringifier {
 		if (node.nodes && node.nodes.length) {
 			node.nodes.forEach((root) => {
 				this.builder(root.raws.beforeStart, root, 'beforeStart');
-				this.stringify(root);
+
+				if (root.type !== 'root') {
+					this.stringify(root);
+				} else {
+					this.body(root);
+
+					if (root.raws.after) this.builder(root.raws.after);
+				}
+
 				this.builder(root.raws.afterEnd, root, 'afterEnd');
 			});
 		} else {
